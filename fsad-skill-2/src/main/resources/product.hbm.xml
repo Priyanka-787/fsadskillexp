@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "https://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.product.entity">
+
+    <class name="Product" table="Skill2">
+
+        <id name="pid" column="pid">
+            <generator class="assigned"/>
+        </id>
+
+        <property name="pname" column="pname"/>
+        <property name="pdescription" column="pdescription"/>
+        <property name="price" column="price"/>
+        <property name="quantity" column="pquantity"/>
+
+    </class>
+
+</hibernate-mapping>
